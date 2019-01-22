@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AD320-IA2-Gedam</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|ZCOOL+KuaiLe" rel="stylesheet"></head>
+
+<!--"post" is other method option to hide from url-->
+
+<body>
+<form action="fh.php" method="get" onsubmit="return val()" name="form">
+    <div class="row">
+        <label>Full Name:</label>
+        <input type="text" name="name" placeholder="your name">
+        <div class="req" id="nameReq"></div>
+    </div>
+
+    <div class="row">
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="email@example.com">
+        <div class="req" id="emailReq"></div>
+    </div>
+
+    <div class="row">
+        <label>Phone Number:</label>
+        <input type="text" name="phone" placeholder="555-555-5555">
+        <div class="req"></div>
+    </div>
+
+    <div class="row">
+        <label>State of Residence:</label>
+        <input type="text" name="state" placeholder="California">
+        <div class="req"></div>
+    </div>
+
+    <div class="buttons">
+        <div class="space"></div>
+        <input type="reset" onclick="clearForm()" value="Reset">
+        <input type="submit" value="Submit!">
+        <div class="req"></div>
+    </div>
+
+
+
+</form>
+<script src="main.js"></script>
+</body>
+</html>
