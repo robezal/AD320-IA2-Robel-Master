@@ -1,12 +1,4 @@
 <?php
-/**
- * Created by IntelliJ IDEA.
- * User: Miguel.Acevedo
- * Date: 1/20/2019
- * Time: 5:44 PM
- */
-
-
 
 $name = $_GET['name'];
 $email = $_GET['email'];
